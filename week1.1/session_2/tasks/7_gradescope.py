@@ -2,12 +2,11 @@
 
 # You are going to write a very simple program:
 # Ask a user to enter two numbers (one per input)
-while True:
-    try:
-        a = int(input("enter the number1"))
-        b = int(input("enter the number2"))
-        break
-    except ValueError:
+try:
+    a = int(input("enter the number1"))
+    b = int(input("enter the number2"))
+    break
+except ValueError:
         print("That is not a number")
 # multiply those numbers together
 c = a * b
