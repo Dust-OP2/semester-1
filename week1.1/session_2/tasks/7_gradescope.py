@@ -5,7 +5,6 @@
 try:
     a = int(input("enter the number1"))
     b = int(input("enter the number2"))
-    break
 except ValueError:
         print("That is not a number")
 # multiply those numbers together
