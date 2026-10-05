@@ -33,9 +33,9 @@ except ValueError:
 if ps:
     if val >= 0 and val <= 39:
         print(f"{val} is a Fail")
-    else if val >= 40 and val <= 69:
+    elif val >= 40 and val <= 69:
         print(f"{val} is a Pass")
-    else if val >= 70 and val <= 100:
+    elif val >= 70 and val <= 100:
         print(f"{val} is a Distinction")
     else:
         sys.exit("Error: Grade must be an integer between 0 and 100")
